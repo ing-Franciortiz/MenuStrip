@@ -19,6 +19,7 @@ namespace AngendaMDI
         private void calculadoraDeIMCToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmDivisas ventana = new FrmDivisas();
+            ventana.MdiParent = this;
             ventana.Show();
 
         }
@@ -26,6 +27,7 @@ namespace AngendaMDI
         private void tToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmImpuestos ventana = new FrmImpuestos();
+            ventana.MdiParent = this;
             ventana.Show();
 
 
@@ -34,6 +36,7 @@ namespace AngendaMDI
         private void limiteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmFibonacci ventana = new FrmFibonacci();
+            ventana.MdiParent = this;
             ventana.Show();
 
 
